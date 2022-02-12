@@ -1,6 +1,6 @@
 {
   "name": "segasync",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Asynchronous downloader for segmented media",
   "main": "segasync.js",
   "directories": {
