@@ -2,15 +2,12 @@
   "name": "segasync",
   "version": "2.0.0",
   "description": "Asynchronous downloader for segmented media",
+  "license": "Apache-2.0",
+  "author": "vitnore",
   "main": "segasync.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "undici": "^4.14.1"
   }
