@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/segasync)](https://www.npmjs.com/package/segasync)
 [![npm downloads/month](https://img.shields.io/npm/dm/segasync)](https://www.npmjs.com/package/segasync)
 [![npm downloads](https://img.shields.io/npm/dt/segasync)](https://www.npmjs.com/package/segasync)
+[![license](https://img.shields.io/npm/l/segasync)](https://github.com/vitnore/segasync/blob/main/LICENSE)
 
 Segasync is a Node.js library for asynchronous downloading of segmented media, like segments in MPD/M3U8 playlists.
 
