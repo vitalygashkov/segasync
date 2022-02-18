@@ -1,6 +1,6 @@
 {
   "name": "segasync",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Vitaliy Gashkov <vitnore@gmail.com>",
   "description": "Asynchronous downloader for segmented media",
   "license": "Apache-2.0",
@@ -18,7 +18,7 @@
     "types"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "types": "tsc -p tsconfig.json",
     "lint": "eslint \"**/*.js\" --fix",
     "lint:check": "eslint \"**/*.js\"",
@@ -34,16 +34,31 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
     "prettier": "^2.5.1",
     "typescript": "^4.5.5"
   },
   "pkg": {
-    "assets": ["lib/**/*"],
+    "assets": [
+      "lib/**/*"
+    ],
     "patches": {
-      "./node_modules/undici/lib/fetch/body.js": ["require('stream/web')", "require('stream').web"],
-      "./node_modules/undici/lib/core/util.js": ["require('stream/web')", "require('stream').web"],
-      "./node_modules/undici/lib/fetch/request.js": ["require('stream/web')", "require('stream').web"],
-      "./node_modules/undici/lib/fetch/index.js": ["require('stream/web')", "require('stream').web"]
+      "./node_modules/undici/lib/fetch/body.js": [
+        "require('stream/web')",
+        "require('stream').web"
+      ],
+      "./node_modules/undici/lib/core/util.js": [
+        "require('stream/web')",
+        "require('stream').web"
+      ],
+      "./node_modules/undici/lib/fetch/request.js": [
+        "require('stream/web')",
+        "require('stream').web"
+      ],
+      "./node_modules/undici/lib/fetch/index.js": [
+        "require('stream/web')",
+        "require('stream').web"
+      ]
     }
   }
 }
