@@ -1,7 +1,7 @@
 {
   "name": "segasync",
   "version": "2.0.5",
-  "author": "Vitaliy Gashkov <vitnore@gmail.com>",
+  "author": "Vitaly Gashkov <vitalygashkov@outlook.com>",
   "description": "Asynchronous downloader for segmented media",
   "license": "Apache-2.0",
   "keywords": [
@@ -19,11 +19,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitnore/segasync.git"
+    "url": "git+https://github.com/vitalygashkov/segasync.git"
   },
   "funding": {
     "type": "individual",
-    "url": "https://boosty.to/vitnore"
+    "url": "https://boosty.to/vitalygashkov"
   },
   "scripts": {
     "test": "jest",
@@ -34,7 +34,7 @@
     "format:check": "prettier --loglevel warn --check \"**/*.{ts,js,json,yaml}\""
   },
   "dependencies": {
-    "undici": "^5.0.0"
+    "undici": "^5.8.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
